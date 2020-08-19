@@ -1,0 +1,33 @@
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\DesarrolloPrueba>git tag v1.0.1
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\DesarrolloPrueba>git log
+commit 5e7578db861ee4f079e0a05bfb8f0969a06c6c88 (HEAD -> master, tag: v1.0.1, tag: v0.2.0)
+Author: bryanjt2001 <bryanjacob01@hotmail.com>
+Date:   Wed Aug 19 09:51:20 2020 -0500
+
+    A<C3><B1>ado archivo2
+
+commit 88b9c737a70477481e7fde029d485e09d3574d98
+Author: bryanjt2001 <bryanjacob01@hotmail.com>
+Date:   Wed Aug 19 09:31:01 2020 -0500
+
+    A<C3><B1>ado el archivo1
+    
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\DesarrolloPrueba>git tag -a v1.0.1
+fatal: tag 'v1.0.1' already exists
+
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\DesarrolloPrueba>git show
+commit 5e7578db861ee4f079e0a05bfb8f0969a06c6c88 (HEAD -> master, tag: v1.0.1, tag: v0.2.0)
+Author: bryanjt2001 <bryanjacob01@hotmail.com>
+Date:   Wed Aug 19 09:51:20 2020 -0500
+
+    A<C3><B1>ado archivo2
+
+diff --git a/archivo1.txt b/archivo1.txt
+index e69de29..310b753 100644
+--- a/archivo1.txt
++++ b/archivo1.txt
+@@ -0,0 +1 @@
++Es una prueba
+\ No newline at end of file
